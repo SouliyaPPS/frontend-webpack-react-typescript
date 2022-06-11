@@ -1,6 +1,8 @@
 git init
 git add .
-git commit -m "first commit"
+git commit -am "commit message" --no-verify
 git branch -M main
 git remote add origin https://github.com/SouliyaPPS/frontend-webpack-react-typescript.git
 git push -u origin main -f
+
+git config --global https://github.com/SouliyaPPS/frontend-webpack-react-typescript.git
