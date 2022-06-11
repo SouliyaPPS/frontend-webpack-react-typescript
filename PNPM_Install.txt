@@ -1,0 +1,28 @@
+git int
+git add .gitignore
+git commit -m "message" .gitignore
+npm init --y
+pnpm i react react-dom
+pnpm i webpack --save-dev
+pnpm i webpack-cli --save-dev
+pnpm i webpack-dev-server --save-dev
+pnpm i @babel/core --save-dev
+pnpm i babel-loader --save-dev
+pnpm i -D typescript @types/react @types/react-dom
+pnpm i -D @babel/preset-env @babel/preset-react @babel/preset-typescript
+pnpm i --save-dev @babel/preset-typescript
+pnpm i -D webpack webpack-cli webpack-dev-server html-webpack-plugin
+pnpm i -D babel-loader
+pnpm i -D css-loader style-loader
+pnpm i -D webpack-merge
+pnpm i -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+pnpm i -D @babel/plugin-transform-runtime
+pnpm i -D eslint
+pnpm i -D eslint-plugin-react eslint-plugin-react-hooks
+pnpm i -D @typescript-eslint/parser @typescript-eslint/eslint-plugin
+pnpm i -D eslint-plugin-import eslint-plugin-jsx-a11y
+pnpm i -D eslint-plugin-eslint-comments@latest --save-dev
+pnpm i -D prettier eslint-config-prettier eslint-plugin-prettier
+pnpm i -D eslint --save-dev
+pnpm i -D husky@4 lint-staged
+pnpm i -D @babel/runtime @babel/plugin-transform-runtime
